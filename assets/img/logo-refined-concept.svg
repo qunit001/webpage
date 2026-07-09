@@ -1,0 +1,30 @@
+<svg viewBox="0 0 520 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CyberQunit refined logo concept">
+  <defs>
+    <linearGradient id="swoosh" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0891b2"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <!-- dark preview backdrop (matches the site theme; not part of the logo itself) -->
+  <rect x="0" y="0" width="520" height="150" rx="16" fill="#050914"/>
+  <text x="260" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" letter-spacing="2" fill="#7fa0b5">REFINED CONCEPT — CURRENT MARK + FINGERPRINT ACCENT</text>
+
+  <g transform="translate(150,42) scale(1.05)">
+    <!-- shield -->
+    <path d="M26 2 L48 12 V30 C48 44 38 51 26 56 C14 51 4 44 4 30 V12 Z" fill="#0a1330" stroke="#0e2a52" stroke-width="1"/>
+    <!-- subtle fingerprint ridges in the upper shield (nods to the original QUNT mark) -->
+    <g fill="none" stroke="#22d3ee" stroke-width="0.9" opacity="0.30" stroke-linecap="round">
+      <path d="M14 13.5 C18.5 7 33.5 7 38 13.5"/>
+      <path d="M17 15 C20.5 9.8 31.5 9.8 35 15"/>
+      <path d="M20 16.6 C22.3 13 29.7 13 32 16.6"/>
+    </g>
+    <!-- keyhole -->
+    <circle cx="26" cy="24" r="7.5" fill="none" stroke="#22d3ee" stroke-width="3"/>
+    <rect x="23.5" y="28" width="5" height="12" rx="2" fill="#22d3ee"/>
+    <!-- swoosh -->
+    <path d="M0 40 C14 54 40 54 54 38" fill="none" stroke="url(#swoosh)" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <text x="212" y="88" font-family="'Sora',Arial,sans-serif" font-weight="700" font-size="42" fill="#e6f6fb">Cyber<tspan fill="#22d3ee">Qunit</tspan></text>
+  <text x="214" y="112" font-family="Arial,sans-serif" font-weight="600" font-size="13" letter-spacing="2.5" fill="#7fb8c9">YOUR SHIELD. OUR EXPERTISE.</text>
+</svg>
