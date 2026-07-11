@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="OT and ICS security">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1330"/><stop offset="1" stop-color="#132555"/></linearGradient></defs>
+<rect width="800" height="360" fill="url(#g)"/>
+<g stroke="#22d3ee" stroke-opacity=".07"><path d="M0 90H800M0 180H800M0 270H800M160 0V360M320 0V360M480 0V360M640 0V360"/></g>
+<circle cx="660" cy="90" r="140" fill="#22d3ee" fill-opacity=".05"/>
+<g transform="translate(610,105)" fill="none" stroke="#22d3ee" stroke-width="4"><circle cx="55" cy="55" r="26"/><circle cx="55" cy="55" r="9" fill="#22d3ee"/><g stroke-linecap="round"><path d="M55 20V6M55 104V90M20 55H6M104 55H90M31 31 21 21M79 79 89 89M79 31 89 21M31 79 21 89"/></g></g>
+<rect x="48" y="54" rx="17" width="196" height="36" fill="#22d3ee" fill-opacity=".15" stroke="#22d3ee" stroke-opacity=".45"/>
+<text x="66" y="78" font-family="Arial" font-size="17" font-weight="700" letter-spacing="1" fill="#67e8f9">OT / ICS SECURITY</text>
+<text x="48" y="200" font-family="Arial" font-size="50" font-weight="700" fill="#e6f6fb">Securing OT in 2026</text>
+<text x="50" y="242" font-family="Arial" font-size="22" fill="#9fc3d6">When the plant is the target</text>
+<text x="48" y="322" font-family="Arial" font-size="18" font-weight="700" fill="#e6f6fb">Cyber<tspan fill="#22d3ee">Qunit</tspan></text>
+</svg>

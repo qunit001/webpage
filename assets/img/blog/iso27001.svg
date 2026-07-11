@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="ISO 27001 compliance">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1330"/><stop offset="1" stop-color="#132555"/></linearGradient></defs>
+<rect width="800" height="360" fill="url(#g)"/>
+<g stroke="#22d3ee" stroke-opacity=".07"><path d="M0 90H800M0 180H800M0 270H800M160 0V360M320 0V360M480 0V360M640 0V360"/></g>
+<circle cx="660" cy="90" r="140" fill="#22d3ee" fill-opacity=".05"/>
+<g transform="translate(600,95)" fill="none" stroke="#22d3ee" stroke-width="4"><path d="M50 4 96 22V54C96 90 74 112 50 122 26 112 4 90 4 54V22Z" fill="#0a1330"/><path d="M30 60l14 14 26-30" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+<rect x="48" y="54" rx="17" width="230" height="36" fill="#22d3ee" fill-opacity=".15" stroke="#22d3ee" stroke-opacity=".45"/>
+<text x="66" y="78" font-family="Arial" font-size="17" font-weight="700" letter-spacing="1" fill="#67e8f9">GRC &amp; COMPLIANCE</text>
+<text x="48" y="200" font-family="Arial" font-size="52" font-weight="700" fill="#e6f6fb">ISO/IEC 27001:2022</text>
+<text x="50" y="242" font-family="Arial" font-size="22" fill="#9fc3d6">Your practical checklist</text>
+<text x="48" y="322" font-family="Arial" font-size="18" font-weight="700" fill="#e6f6fb">Cyber<tspan fill="#22d3ee">Qunit</tspan></text>
+</svg>
