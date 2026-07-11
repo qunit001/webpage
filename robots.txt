@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cyberqunit.com/sitemap.xml
+Sitemap: https://qunittech.com/sitemap.xml

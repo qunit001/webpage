@@ -1,4 +1,4 @@
-// CyberQunit — shared site interactivity (no dependencies)
+// Qunit Security — shared site interactivity (no dependencies)
 document.addEventListener('DOMContentLoaded', function () {
   // Footer year
   var y = document.getElementById('year');
@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var typed = document.getElementById('typed');
   if (typed && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     var seq = [
-      ['whoami', 'CyberQunit — offensive security'],
+      ['whoami', 'Qunit Security — offensive security'],
       ['./scan --target you', '0 breaches. shields up.'],
       ['run vapt --ai', 'securing the AI you build.']
     ];
@@ -32,17 +32,17 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     cycle();
   } else if (typed) {
-    typed.innerHTML = 'whoami <span style="color:#5c6b7a">&#8594;</span> <span style="color:#eaf3f0">CyberQunit — offensive security</span>';
+    typed.innerHTML = 'whoami <span style="color:#5c6b7a">&#8594;</span> <span style="color:#eaf3f0">Qunit Security — offensive security</span>';
   }
 
   // Hero live-scan terminal (homepage)
   var termBody = document.getElementById('termBody');
   if (termBody) {
     var reduceT = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    var PROMPT = '<span style="color:#34d399">visitor@cyberqunit:~$</span> ';
+    var PROMPT = '<span style="color:#34d399">visitor@qunit:~$</span> ';
     var steps = [
       { cmd: 'whoami' },
-      { out: 'CyberQunit — offensive security', c: '#67e8f9' },
+      { out: 'Qunit Security — offensive security', c: '#67e8f9' },
       { gap: 1 },
       { cmd: './run-audit --target app.acme.io --scope full' },
       { out: '[+] recon ............ 128 assets mapped', c: '#8ea3b5' },
